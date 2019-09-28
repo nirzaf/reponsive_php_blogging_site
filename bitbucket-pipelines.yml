@@ -6,4 +6,4 @@ pipelines:
         script:
           - apt-get update
           - apt-get install -qq git-ftp 
-          - git ftp push --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://ftp.unaux.com/htdocs/ 
+          - git ftp push --force --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://ftp.unaux.com/htdocs/ 
