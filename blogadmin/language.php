@@ -243,7 +243,7 @@
 	$Translation['setup next 2'] = 'Import existing data into your application from a CSV file.';
 	$Translation['setup next 3'] = 'Go to the admin homepage where you can change many other application settings.';
 	$Translation['db_name help'] = 'The name of the database you want to run your AppGini application in.';
-	$Translation['db_server help'] = '<i>localhost</i> works on most servers. If not, you should be able to get this info from your web hosting provider.';
+	$Translation['db_server help'] = '<i>sql200.unaux.com</i> works on most servers. If not, you should be able to get this info from your web hosting provider.';
 	$Translation['db_username help'] = 'Your MySQL username';
 	$Translation['db_password help'] = 'Your MySQL password';
 	$Translation['username help'] = 'Specify the admin username you\'d like to use to access the admin area. Must be four characters or more.';

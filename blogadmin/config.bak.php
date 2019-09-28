@@ -1,5 +1,5 @@
 <?php
-	$dbServer = 'localhost';
+	$dbServer = 'sql200.unaux.com';
 	$dbUsername = 'root';
 	$dbPassword = '';
 	$dbDatabase = 'blog_admin_db';
@@ -24,7 +24,7 @@
 		'senderName' => "Membership management",
 		'senderEmail' => "ronniengoda@gmail.com",
 		'approvalSubject' => "Your membership is now approved",
-		'approvalMessage' => "Dear member,\n\nYour membership is now approved by the admin. You can log in to your account here:\nhttp://localhost/blogadmin\n\nRegards,\nAdmin",
+		'approvalMessage' => "Dear member,\n\nYour membership is now approved by the admin. You can log in to your account here:\nhttp://sql200.unaux.com/blogadmin\n\nRegards,\nAdmin",
 		'hide_twitter_feed' => "",
 		'maintenance_mode_message' => "<b>Our website is currently down for maintenance</b><br>\r\nWe expect to be back in a couple hours. Thanks for your patience.",
 		'mail_function' => "mail",

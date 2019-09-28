@@ -33,7 +33,7 @@
 	}
 
 	function isEmail($email){
-		if(preg_match('/^([*+!.&#$¦\'\\%\/0-9a-z^_`{}=?~:-]+)@(([0-9a-z-]+\.)+[0-9a-z]{2,45})$/i', $email)){
+		if(preg_match('/^([*+!.&#$ï¿½\'\\%\/0-9a-z^_`{}=?~:-]+)@(([0-9a-z-]+\.)+[0-9a-z]{2,45})$/i', $email)){
 			return $email;
 		}else{
 			return FALSE;
@@ -318,7 +318,7 @@
 					<label for="db_server" class="control-label col-sm-4"><?php echo $Translation['mysql server']; ?></label>
 					<div class="col-sm-8">
 						<div class="input-group">
-							<input type="text" class="form-control" id="db_server" name="db_server" placeholder="<?php echo htmlspecialchars($Translation['mysql server']); ?>" value="localhost">
+							<input type="text" class="form-control" id="db_server" name="db_server" placeholder="<?php echo htmlspecialchars($Translation['mysql server']); ?>" value="sql200.unaux.com">
 							<span class="input-group-btn">
 								<button data-toggle="collapse" tabindex="-1" data-target="#db_server-help" class="btn btn-info" type="button"><i class="glyphicon glyphicon-info-sign"></i></button>
 							</span>

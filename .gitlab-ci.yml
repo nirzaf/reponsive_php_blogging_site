@@ -1,10 +1,11 @@
-image: ubuntu:18.04
+variables:
+  HOST: "ftp.unaux.com"
+  USERNAME: "unaux_24548161"
+  PASSWORD: "42wr4ts2w3c5"
 
-before_script:
-  - apt-get update -qy
-  - apt-get install -y lftp
-
-build:
+deploy:
   script:
-    # Sync to FTP
-    - lftp -e "open ftp.unaux.com; user $FTP_USERNAME $FTP_PASSWORD; mirror -X .* -X .*/ --reverse --verbose --delete https://gitlab.com/nirzaf/reponsive_php_blogging_site/ htdocs/; bye"
+    - apt-get update -qq && apt-get install -y -qq lftp
+    - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; mirror -Rnev ./ ./htdocs --ignore-time --parallel=10 --exclude-glob .git* --exclude .git/"
+  only:
+    - master
