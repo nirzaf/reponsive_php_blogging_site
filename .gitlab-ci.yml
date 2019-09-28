@@ -7,4 +7,4 @@ before_script:
 build:
   script:
     # Sync to FTP
-    - lftp -e "open ftp.unaux.com; user $FTP_USERNAME $FTP_PASSWORD; mirror -X .* -X .*/ --reverse --verbose --delete / htdocs/; bye"
+    - lftp -e "open ftp.unaux.com; user $FTP_USERNAME $FTP_PASSWORD; mirror -X .* -X .*/ --reverse --verbose --delete https://gitlab.com/nirzaf/reponsive_php_blogging_site/ htdocs/; bye"
