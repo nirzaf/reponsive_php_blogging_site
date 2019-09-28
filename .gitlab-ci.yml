@@ -7,4 +7,4 @@ before_script:
 build:
   script:
     # Sync to FTP
-    - lftp -e "open ftp.unaux.com; user unaux_24548161 42wr4ts2w3c5; mirror -X .* -X .*/ --reverse --verbose --delete / htdocs/; bye"
+    - lftp -e "open ftp.unaux.com; user $FTP_USERNAME $FTP_PASSWORD; mirror -X .* -X .*/ --reverse --verbose --delete / htdocs/; bye"
