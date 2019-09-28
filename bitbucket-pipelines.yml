@@ -12,6 +12,8 @@ pipelines:
           - composer
         script:
           - apt-get update && apt-get install -y unzip
+          - apt-get install -qq git-ftp 
+          - git ftp init --user $FTP_USERNAME --password $FTP_PASSWORD ftp.unaux.com 
           - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
           - composer install
           - vendor/bin/phpunit
