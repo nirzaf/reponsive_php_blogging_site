@@ -1,0 +1,675 @@
+@charset "UTF-8";
+/*--------------------------------------------------------------
+TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Typography
+2.0 Layout
+3.0 Navbar
+4.0 Menu
+5.0 Contents
+	5.1 User Process Add Place
+	5.2 Login
+	5.3 Sign Up
+	5.4 Request Password
+	5.5 tpl-my-reviews
+	5.6 tpl-my-profile
+	5.7 tpl-my-places
+	5.8 tpl-edit-pass
+	5.9 tpl-select-plan
+	5.10 tpl-add-place, tpl-edit-place
+6.0 Footer
+7.0 Pagination
+8.0 Forms
+9.0 Buttons
+10.0 Tables
+11.0 Global Classes
+	11.1 Modals
+----------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 Typography
+--------------------------------------------------------------*/
+h1 {
+	margin-bottom: 48px;
+	text-align: center;
+}
+
+.main-container h2 {
+	border-bottom: 1px solid #edeef0;
+	color: #404040;
+	font-size: 1.8rem;
+	font-weight: 400;
+	padding: 24px;
+}
+
+.form-block h1 {
+	border-bottom: 1px solid #ddd;
+	font-size: 2rem;
+	font-weight: 400;
+	margin-bottom: 24px;
+	padding-bottom: 24px;
+}
+
+.form-block a {
+	color: #636363;
+}
+
+.pubdate {
+	color: #888;
+	font-size: 1.2rem;
+}
+
+label {
+    display: block;
+    font-weight: 400;
+	color: #888;
+}
+
+.controls a:hover {
+	text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+2.0 Layout
+--------------------------------------------------------------*/
+body {
+	background-color: #edeef0;
+	padding: 0;
+}
+
+.wrapper-720 {
+	max-width: 720px;
+
+}
+
+.wrapper-600 {
+	max-width: 600px;
+}
+
+.form-block {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin: auto;
+	padding: 24px;
+	width: 100%;
+}
+
+.msg-block {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin: auto;
+	padding: 24px;
+	width: 100%;
+	text-align: center;
+}
+
+.main-container {
+	background-color: #fff;
+	float: left;
+	color: #404040;
+	padding: 0;
+	width: calc(100% - 224px);
+}
+
+.review-text {
+	margin-bottom: 24px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #ddd;
+}
+
+.form-row-quarter {
+	margin-bottom: 24px;
+}
+
+.msg {
+	width: 50%;
+	margin: auto;
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.item-counter {
+	background-color: #edeef0;
+	color: #636363;
+}
+
+.pagination {
+	margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 960px) {
+	.main-container {
+		width: calc(100% - 72px);
+	}
+
+}
+
+@media only screen and (max-width: 552px) {
+	.main-container {
+		float: none;
+		padding: 0;
+		width: 100%;
+	}
+
+	.wrapper {
+		padding: 10px;
+	}
+
+	.full-block {
+		padding: 10px;
+	}
+}
+
+/*--------------------------------------------------------------
+3.0 Navbar
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+4.0 Menu
+--------------------------------------------------------------*/
+.menu-box {
+	float: left;
+	margin-right: 24px;
+	width: 200px;
+}
+
+.menu-box ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.menu-box ul li {
+	list-style-type: none;
+	padding: 0;
+}
+
+.menu-box a {
+	background-color: #fff;
+	color: #404040;
+	display: block;
+	margin-bottom: 1px;
+	padding: 12px;
+	text-decoration: none;
+}
+
+.menu-box a.active {
+	background-color: #6c7478;
+	color: #fff;
+}
+
+.menu-box h2 {
+	color: #636363;
+	font-size: 1.6rem;
+	font-weight: 400;
+	margin-bottom: 12px;
+	padding: 12px;
+	padding-top: 0;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 960px) {
+	.menu-box .menu-txt {
+		display: none;
+	}
+
+	.menu-box {
+		width: auto; /* approx. 42px */
+	}
+}
+
+@media only screen and (max-width: 552px) {
+	.menu-box {
+		float: none;
+		margin-bottom: 24px;
+		width: 100%;
+	}
+}
+
+/*--------------------------------------------------------------
+5.0 Contents
+--------------------------------------------------------------*/
+.place-name a {
+	font-weight: 700;
+}
+
+.user-item {
+	background-color: #fff;
+	border-bottom: 1px solid #edeef0;
+	margin-bottom: 24px;
+	padding-bottom: 24px;
+	width: 100%;
+}
+
+.user-item-pic {
+	float: left;
+	margin-right: 24px;
+	position: relative;
+	width: 88px;
+}
+
+.user-item-pic img { /* requested thumb is 88x88 */
+	border-radius: 3px;
+	width: 100%;
+	max-width: 100px;
+}
+
+.user-item-pubdate {
+	color: #404040;
+	font-size: 1.2rem;
+	font-style: italic;
+}
+
+.user-item-description {
+	float: left;
+	width: calc(100% - 113px); /* should be 112 but being safe set to 113 */
+}
+
+.user-item-description h2 {
+	margin-bottom: 0;
+}
+
+.user-item-info {
+	margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 410px) {
+	.user-item-pic {
+		float: none;
+		margin-bottom: 24px;
+	}
+	.user-item-description {
+		float: none;
+		width: 100%;
+	}
+}
+	/*--------------------------------------------------------------
+	5.1 User Process Add Place
+	--------------------------------------------------------------*/
+	.checkout-box-wrapper {
+		margin: auto;
+		text-align: center;
+		width: 80%;
+		margin-bottom: 48px;
+	}
+
+	.checkout-box {
+		width: 50%;
+		margin: auto;
+		border: 1px solid #edeef0;
+		text-align: center;
+		border-radius: 3px;
+		padding: 24px;
+	}
+
+	h1 {
+		margin-bottom: 48px;
+	}
+
+	.price {
+		font-size: 60px;
+		margin-bottom: 24px;
+	}
+
+	.price span {
+		font-size: 16px;
+	}
+
+	@media only screen and (max-width: 960px) {
+		.checkout-box-wrapper {
+			width: 100%;
+		}
+	}
+
+	@media only screen and (max-width: 776px) {
+		.checkout-box {
+			display: block;
+			margin: auto;
+			margin-bottom: 24px;
+			width: 80%;
+		}
+
+		.checkout-box:first-child {
+			margin-right: inherit;
+		}
+
+		.checkout-box:last-child {
+			margin-left: inherit;
+		}
+	}
+
+	@media only screen and (max-width: 380px) {
+		.checkout-box {
+			width: 100%;
+		}
+	}
+
+	@media only screen and (max-width: 432px) {
+		.wrapper {
+			padding: 0;
+		}
+	}
+
+	/*--------------------------------------------------------------
+	5.2 Login
+	--------------------------------------------------------------*/
+	.social-login {
+		float: left;
+		width: calc(50% - 24px);
+		padding-left: 24px;
+	}
+
+	.social-login-button {
+		font-size: 1.6rem;
+		line-height: 1.5;
+		padding: 4px 12px;
+		border: 1px solid #ddd;
+		margin-bottom: 24px;
+	}
+
+	.login-form {
+		border-right: 1px solid #ddd;
+		float: left;
+		padding-right: 24px;
+		width: 50%
+	}
+
+	.login-form input[type=text],
+	.login-form input[type=password],
+	.login-form input[type=email] {
+		width: 100%;
+	}
+
+	.login-form button {
+		display: inline-block;
+	}
+
+	.btn-login-submit {
+		margin-right: 24px;
+	}
+
+	.fa-facebook {
+		border-radius: 12px;
+		color: #fff;
+		background-color: #415aa7;
+		padding: 4px 8px;
+		margin-right: 12px;
+	}
+
+	.fa-twitter {
+		border-radius: 12px;
+		color: #fff;
+		background-color: #4897e0;
+		padding: 4px 5px;
+		margin-right: 12px;
+	}
+
+	/*--------------------------------------------------------------
+	5.3 Sign Up
+	--------------------------------------------------------------*/
+	.signup-form {
+		margin: auto;
+		padding: 24px;
+		width: 480px;
+	}
+
+	.input-group input {
+		width: 100%;
+	}
+
+	/*--------------------------------------------------------------
+	5.4 Request Password
+	--------------------------------------------------------------*/
+	.signup-wrapper {
+		max-width: 720px;
+		margin: auto;
+		width: 100%;
+		padding: 24px;
+		position: relative;
+	}
+
+	.signup-form {
+		margin: auto;
+		padding: 24px;
+		width: 480px;
+	}
+
+	.input-group input {
+		width: 100%;
+	}
+
+	.msg {
+		width: 50%;
+		margin: auto;
+		margin-bottom: 24px;
+	}
+
+	/*--------------------------------------------------------------
+	5.5 tpl-my-reviews
+	--------------------------------------------------------------*/
+	.tpl-my-reviews .editable-container.editable-inline {
+		width: 100%;
+	}
+
+	@media only screen and (min-width: 768px) {
+		.tpl-my-reviews .form-inline .form-control {
+			width: 100%;
+		}
+	}
+
+	.tpl-my-reviews .control-group.form-group {
+		width: 100%;
+	}
+
+	.tpl-my-reviews .editable-input {
+		width: 80%;
+	}
+
+	.tpl-my-reviews .x-editable-textarea {
+		width: 600px;
+	}
+
+	.tpl-my-reviews .editable-click, .tpl-my-reviews a.editable-click, .tpl-my-reviews a.editable-click:hover {
+		text-decoration: none;
+		border-bottom: 0;
+	}
+
+	/*--------------------------------------------------------------
+	5.6 tpl-my-profile
+	--------------------------------------------------------------*/
+	.tpl-my-profile .field-col label {
+		display: inline-block;
+		margin-right: 12px;
+	}
+
+	.tpl-my-profile .select {
+		display: inline-block;
+	}
+
+	select.b_month {
+		width: 125px;
+	}
+
+	select.b_day {
+		width: 80px;
+	}
+
+	select.b_year {
+		width: 80px;
+	}
+
+	.tpl-my-profile select {
+		padding: 4px;
+	}
+
+	.tpl-my-profile #upload_button {
+		width: 150px;
+		padding: 0;
+		text-align: center;
+	}
+
+	.tpl-my-profile #profile-pic {
+		float: left;
+		margin-right: 24px;
+		position: relative;
+		width: 150px;
+	}
+
+	.tpl-my-profile #profile-pic .dummy {
+		padding-top: 100%;
+	}
+
+	.tpl-my-profile .container-img {
+		border-radius: 5px;
+	}
+
+	.tpl-my-profile .profile-pic-controls {
+		float: left;
+	}
+
+	.tpl-my-profile .btn-ghost {
+		display: block;
+	}
+
+	@media only screen and (max-width: 768px) {
+		.tpl-my-profile .label-col {
+			float: none;
+			width: 100%;
+		}
+
+		.tpl-my-profile .label-col label {
+			text-align: left;
+		}
+
+		.tpl-my-profile .field-col {
+			float: none;
+			width: 100%;
+		}
+	}
+
+	@media only screen and (max-width: 620px) {
+		.tpl-my-profile #profile-pic {
+			float: none;
+			margin-right: 0;
+			margin-bottom: 24px;
+		}
+
+		.tpl-my-profile .btn-ghost {
+			float: none;
+			margin-bottom: 24px;
+		}
+
+		.tpl-my-profile input[type=text],
+		.tpl-my-profile textarea,
+		.tpl-my-profile select {
+			width: 100%;
+		}
+
+		.tpl-my-profile select {
+			padding: 4px;
+		}
+	}
+
+	/*--------------------------------------------------------------
+	5.7 tpl-my-places
+	--------------------------------------------------------------*/
+	@media only screen and (min-width: 768px) {
+		.tpl-my-places .form-inline .form-control {
+			width: 100%;
+		}
+	}
+
+	.tpl-my-places .control-group.form-group {
+		width: 100%;
+	}
+
+	.tpl-my-places .item-info {
+		margin-left: 36px;
+	}
+
+	.tpl-my-places .circle-success {
+		color: #6aa74c;
+	}
+
+	.tpl-my-places .circle-warning {
+		color: #ff6300;
+	}
+
+	/*--------------------------------------------------------------
+	5.8 tpl-edit-pass
+	--------------------------------------------------------------*/
+	.tpl-edit-pass .field-col label {
+		display: inline-block;
+		margin-right: 12px;
+	}
+
+	/*--------------------------------------------------------------
+	5.9 tpl-select-plan
+	--------------------------------------------------------------*/
+	.tpl-select-plan .col-md-4:nth-child(3n+1) {
+		clear: both;
+	}
+
+	/*--------------------------------------------------------------
+	5.10 tpl-add-place, tpl-edit-place
+	--------------------------------------------------------------*/
+	.tpl-edit-place input[type="radio"]:last-child, .tpl-add-place input[type="radio"]:last-child {
+		margin-left: 0;
+	}
+
+/*--------------------------------------------------------------
+6.0 Footer
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+7.0 Pagination
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+8.0 Forms
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+9.0 Buttons
+--------------------------------------------------------------*/
+button.stripe-button-el {
+	padding: 0;
+}
+
+/*--------------------------------------------------------------
+10.0 Tables
+--------------------------------------------------------------*/
+tr.review-text {
+	background-color: #edeef0;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #edeef0;
+}
+
+
+
+/*--------------------------------------------------------------
+11.0 Global Classes
+--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	11.1 Modals
+	--------------------------------------------------------------*/
+	.modal-profile-pic {
+		max-width: 360px;
+	}
+
+	.modal-col-left {
+		width: 30%;
+		float: left;
+		margin-right: 24px;
+	}
+
+	.modal-col-right {
+		width: calc(70% - 24px);
+		float: right;
+	}

@@ -1,0 +1,15 @@
+#custom-fields ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+#custom-fields label {
+	display: inline-block;
+	margin-right: 12px;
+}
+
+label.label-inline {
+	font-weight: 400;
+	display: inline;
+	margin-right: 12px;
+}

@@ -1,0 +1,21 @@
+<?php
+$txt_html_title     = "Gérer Catégories";
+$txt_main_title     = "Gérer Catégories";
+$txt_sort           = "Trier";
+$txt_by_name        = "Par nom";
+$txt_by_parent_id   = "Par ID Parente";
+$txt_create_cat     = "Créer Catégorie";
+$txt_id             = "ID";
+$txt_name           = "Nom";
+$txt_plural_name    = "Nom Pluriel(optionel)";
+$txt_iconfont_tag   = "Balise de police d'icône";
+$txt_parent_id      = "ID Parente";
+$txt_order          = "Ordre";
+$txt_edit_cat       = "Modifier catégorie";
+$txt_remove_cat     = "Enlever catégorie";
+$txt_no_cats        = "Il n'y a aucune catégorie définie.";
+$txt_cat_name       = "Nom de catégorie.";
+$txt_cat_order      = "Ordre Cat (doit être un nombre)(optionel)";
+$txt_parent_cat     = "Catégorie parente";
+$txt_no_parent      = "Aucune";
+$txt_parent_explain = "Maximum profondeur de 3 niveaux. Les catégories qui se trouvent au niveau 3 n'apparaissent pas ici afin de ne pas être sélectionnées.";

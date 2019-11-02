@@ -1,0 +1,27 @@
+<?php
+$txt_html_title      = "Pläne verwalten";
+$txt_main_title      = "Pläne verwalten";
+$txt_create          = "Plan erstellen";
+$txt_view_plans_page = "<span>Sieh dir an, wie User sich die <a href='$baseurl/user/select-plan' target='_blank'>Planseite anschauen </a></span>";
+$txt_plan_type       = "Plan-Typ";
+$txt_plan_name       = "Planname";
+$txt_description     = "Beschreibung";
+$txt_price           = "Preis";
+$txt_toggle_active   = "Umschalter Aktiv/Inaktiv";
+$txt_edit_plan       = "Plan bearbeiten";
+$txt_remove_plan     = "Plan entfernen";
+$txt_free            = "Kostenlos";
+$txt_free_featured   = "Kostenlos dargestellt";
+$txt_one_time        = "Einmalige Zahlung";
+$txt_one_time_f      = "Einmalige Zahlung dargestellt";
+$txt_monthly         = "Monatlich";
+$txt_monthly_f       = "Monatlich dargestellt";
+$txt_desc1           = "Beschreibungszeile 1";
+$txt_desc2           = "Beschreibungszeile 2";
+$txt_desc3           = "Beschreibungszeile 3";
+$txt_desc4           = "Beschreibungszeile 4";
+$txt_desc5           = "Beschreibungszeile 5";
+$txt_period          = "Plandauer (Anzahl an Tagen. Nur gültig für kostenlose und 'einmalige Zahlungen' Plan-Typen). Gib 0 ein oder lass es leer für nicht ablaufende Anzeigen (permanent)";
+$txt_order           = "Bestellung (wo diese dem User auf der Plan auswählen Seite angezeigt werden)";
+$txt_plan_price      = "Planpreis (für kostenlose Pläne wird dieser Wert ignoriert)";
+$txt_plan_status     = "Plan-Status";

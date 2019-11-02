@@ -1,0 +1,21 @@
+<?php
+$txt_html_title             = "Créer un compte";
+$txt_main_title             = "S'inscrire";
+$txt_label_fname            = "Prénom";
+$txt_label_lname            = "Nom de famille";
+$txt_label_email            = "Email";
+$txt_label_passw            = "Mot de passe";
+$txt_submit_btn             = "S'inscrire";
+$txt_btn_facebook           = "S'inscrire avec Facebook";
+$txt_btn_twitter            = "S'inscrire avec Twitter";
+$txt_has_account            = "Déjà inscrit??";
+$txt_link_log_in            = "Connexion";
+$txt_email_exists           = "Cet utilisateur existe déjà";
+$txt_email_exists_explain   = "Désolé, cet e-mail est déjà enregistré.";
+$txt_invalid_email          = "Email invalide";
+$txt_invalid_email_explain  = "La boîte mail donnée [] ne respecte pas la RFC 2822";
+$txt_missing_fields         = "Champs manquants";
+$txt_missing_fields_explain = "Vous avez laissé certains champs vides. Tous les champs sont requis.";
+$txt_acct_created           = "Compte créé!";
+$txt_acct_created_explain   = "Veuillez vérifier votre email et cliquer sur le lien de confirmation.";
+$txt_submit_again           = "Veuillez <a href='$baseurl/user/sign-up'>soumettre le formulaire</a> à nouveau";

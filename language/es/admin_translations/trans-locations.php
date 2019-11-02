@@ -1,0 +1,24 @@
+<?php
+$txt_html_title      = "Administrar ubicaciones";
+$txt_main_title      = "Administrar ubicaciones";
+$txt_show            = "Mostrar";
+$txt_cities          = "Ciudades";
+$txt_states          = "Estados";
+$txt_countries       = "Países";
+$txt_create_city     = "Crear Ciudad";
+$txt_create_state    = "Crear Estado";
+$txt_create_country  = "Crear País";
+$txt_city_id         = "Id de Ciudad";
+$txt_city_name       = "Nombre de Ciudad";
+$txt_state           = "Estado";
+$txt_remove_city     = "Eliminar ciudad";
+$txt_state_id        = "Id del Estado";
+$txt_state_name      = "Nombre del Estado";
+$txt_country         = "País";
+$txt_remove_state    = "Eliminar estado";
+$txt_country_id      = "Id del País";
+$txt_country_name    = "Nombre del país";
+$txt_country_code    = "Código de país";
+$txt_remove_country  = "Eliminar país";
+$txt_toggle_featured = "Alternar Inicio Destacado";
+$txt_quick_jump      = "Salto rápido";

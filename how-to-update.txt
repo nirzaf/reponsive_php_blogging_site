@@ -1,0 +1,35 @@
+How to update to v.1.09:
+
+- replace all files except:
+
+	- inc/config.php    [file]
+	- imgs              [folder]
+	- templates         [folder]
+
+==================================================
+Update MySQL tables
+==================================================
+Directoryapp v.1.08 and v.1.09 didn't make any modification to the database structure.
+
+You only need to update your MySQL structure if you are running an older version than v.1.07
+
+In your phpadmin, select your existing database, then import
+and run only one of the files 'update_xxx_to_107.sql', so that:
+
+a) if your current version of directoryapp is 1.03, then import the file 'update_103_to_107.sql'
+b) if your current version of directoryapp is 1.04, then import the file 'update_104_to_107.sql'
+c) if your current version of directoryapp is 1.05, then import the file 'update_105_to_107.sql'
+d) if your current version of directoryapp is 1.06, then import the file 'update_106_to_107.sql'
+
+These files can be found in the main directory
+
+==================================================
+Template files:
+==================================================
+Sometimes the upgrade includes modifications to some template
+files, you can view which template files(if any) were modified
+by looking at the changelog file. But most of the changes to
+the template files are optional, so you don't have to replace
+in these cases.
+
+changelog file for this version is: 'changelog.v.1.09.txt'

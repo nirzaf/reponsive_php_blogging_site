@@ -1,0 +1,24 @@
+<?php
+$txt_html_title      = "Gérer Locations";
+$txt_main_title      = "Gérer Locations";
+$txt_show            = "Montrer";
+$txt_cities          = "Villes";
+$txt_states          = "Etats";
+$txt_countries       = "Pays";
+$txt_create_city     = "Créer Ville";
+$txt_create_state    = "Créer État";
+$txt_create_country  = "Créer Pays";
+$txt_city_id         = "ID de ville";
+$txt_city_name       = "Nom de ville";
+$txt_state           = "Etat";
+$txt_remove_city     = "Supprimer ville";
+$txt_state_id        = "ID d'Etat";
+$txt_state_name      = "Nom de l'État";
+$txt_country         = "Pays";
+$txt_remove_state    = "Supprimer l'état";
+$txt_country_id      = "ID du pays";
+$txt_country_name    = "Nom du pays";
+$txt_country_code    = "Code du pays";
+$txt_remove_country  = "Supprimer pays";
+$txt_toggle_featured = "Basculer En Vedette";
+$txt_quick_jump      = "Saut rapide";

@@ -1,0 +1,24 @@
+<?php
+$txt_html_title      = "Manage Locations";
+$txt_main_title      = "Manage Locations";
+$txt_show            = "Show";
+$txt_cities          = "Cities";
+$txt_states          = "States";
+$txt_countries       = "Countries";
+$txt_create_city     = "Create City";
+$txt_create_state    = "Create State";
+$txt_create_country  = "Create Country";
+$txt_city_id         = "City id";
+$txt_city_name       = "City Name";
+$txt_state           = "State";
+$txt_remove_city     = "Remove city";
+$txt_state_id        = "State id";
+$txt_state_name      = "State Name";
+$txt_country         = "Country";
+$txt_remove_state    = "Remove state";
+$txt_country_id      = "Country id";
+$txt_country_name    = "Country Name";
+$txt_country_code    = "Country Code";
+$txt_remove_country  = "Remove country";
+$txt_toggle_featured = "Toggle Home Featured";
+$txt_quick_jump      = "Quick jump";

@@ -1,0 +1,21 @@
+<?php
+$txt_html_title     = "Kategorien verwalten";
+$txt_main_title     = "Kategorien verwalten";
+$txt_sort           = "Sortieren";
+$txt_by_name        = "Nach Name";
+$txt_by_parent_id   = "Nach oberer Id";
+$txt_create_cat     = "Kategorie erstellen";
+$txt_id             = "Id";
+$txt_name           = "Name";
+$txt_plural_name    = "Plural-Name(optional)";
+$txt_iconfont_tag   = "Icon-Font-Tag";
+$txt_parent_id      = "Obere Id";
+$txt_order          = "Bestellung";
+$txt_edit_cat       = "Kategorie bearbeiten";
+$txt_remove_cat     = "Kategorie entfernen";
+$txt_no_cats        = "Es sind keine bestimmten Kategorien vorhanden.";
+$txt_cat_name       = "Kategoriename";
+$txt_cat_order      = "Cat-Bestellung (muss eine Nummer sein)(optional)";
+$txt_parent_cat     = "Obere Kategorie";
+$txt_no_parent      = "Keine";
+$txt_parent_explain = "Maximal 3 Level tief. Kategorien die im 3. Level sind, werden hier nicht angezeigt, sodass sie nicht ausgewählt werden können.";

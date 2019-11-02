@@ -1,0 +1,24 @@
+<?php
+$txt_html_title      = "Standorte verwalten";
+$txt_main_title      = "Standorte verwalten";
+$txt_show            = "Zeige";
+$txt_cities          = "Städte";
+$txt_states          = "Bundesländer";
+$txt_countries       = "Länder";
+$txt_create_city     = "Stadt erstellen";
+$txt_create_state    = "Bundesland erstellen";
+$txt_create_country  = "Land erstellen";
+$txt_city_id         = "Stadt Id";
+$txt_city_name       = "Stadtname";
+$txt_state           = "Bundesland";
+$txt_remove_city     = "Stadt entfernen";
+$txt_state_id        = "Bundesland Id";
+$txt_state_name      = "Name des Bundeslandes";
+$txt_country         = "Land";
+$txt_remove_state    = "Bundesland entfernen";
+$txt_country_id      = "Land Id";
+$txt_country_name    = "Name des Landes";
+$txt_country_code    = "Ländercode";
+$txt_remove_country  = "Land entfernen";
+$txt_toggle_featured = "Umschalter Zoomfeature";
+$txt_quick_jump      = "Schnellsprung";

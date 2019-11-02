@@ -1,0 +1,21 @@
+<?php
+$txt_html_title     = "Manage Categories";
+$txt_main_title     = "Manage Categories";
+$txt_sort           = "Sort";
+$txt_by_name        = "By name";
+$txt_by_parent_id   = "By parent id";
+$txt_create_cat     = "Create Category";
+$txt_id             = "Id";
+$txt_name           = "Name";
+$txt_plural_name    = "Plural Name(optional)";
+$txt_iconfont_tag   = "Icon font tag";
+$txt_parent_id      = "Parent Id";
+$txt_order          = "Order";
+$txt_edit_cat       = "Edit category";
+$txt_remove_cat     = "Remove category";
+$txt_no_cats        = "There are no categories defined.";
+$txt_cat_name       = "Category Name";
+$txt_cat_order      = "Cat Order (must be a number)(optional)";
+$txt_parent_cat     = "Parent Category";
+$txt_no_parent      = "None";
+$txt_parent_explain = "Maximum 3 levels deep. Categories that are in the 3rd level will not show up here so that they are not selected.";

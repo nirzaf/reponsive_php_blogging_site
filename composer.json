@@ -1,0 +1,21 @@
+{
+    "name": "DirectoryApp",
+    "description": "Directory App",
+    "authors": [
+        {
+            "name": "Thom",
+            "email": "admin@codebasedev.com"
+        }
+    ],
+    "require": {
+        "hybridauth/hybridauth": "2.*",
+        "swiftmailer/swiftmailer": "^5.4",
+		"mercadopago/sdk": "0.5.2",
+		"stripe/stripe-php": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DirectoryApp\\": "src/"
+        }
+    }
+}

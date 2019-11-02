@@ -1,0 +1,27 @@
+<?php
+$txt_html_title      = "Manage Plans";
+$txt_main_title      = "Manage Plans";
+$txt_create          = "Create Plan";
+$txt_view_plans_page = "<span>See how users view the <a href='$baseurl/user/select-plan' target='_blank'>plans page</a></span>";
+$txt_plan_type       = "Plan Type";
+$txt_plan_name       = "Plan Name";
+$txt_description     = "Description";
+$txt_price           = "Price";
+$txt_toggle_active   = "Toggle Active/Innactive";
+$txt_edit_plan       = "Edit plan";
+$txt_remove_plan     = "Remove Plan";
+$txt_free            = "Free";
+$txt_free_featured   = "Free featured";
+$txt_one_time        = "One time payment";
+$txt_one_time_f      = "One time payment featured";
+$txt_monthly         = "Monthly";
+$txt_monthly_f       = "Monthly featured";
+$txt_desc1           = "Description Line 1";
+$txt_desc2           = "Description Line 2";
+$txt_desc3           = "Description Line 3";
+$txt_desc4           = "Description Line 4";
+$txt_desc5           = "Description Line 5";
+$txt_period          = "Plan Period (Number of days. Only valid for free and 'one time payments' plan types). Enter 0 or leave blank for non expiring ads (permanent)";
+$txt_order           = "Order (at which they will appear to the user in the Select Plan page)";
+$txt_plan_price      = "Plan Price (for free plans, this value will be ignored)";
+$txt_plan_status     = "Plan Status";

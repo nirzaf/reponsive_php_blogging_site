@@ -1,0 +1,21 @@
+<?php
+$txt_html_title     = "Gerenciar Categorias";
+$txt_main_title     = "Gerenciar Categorias";
+$txt_sort           = "Ordenar";
+$txt_by_name        = "Por nome";
+$txt_by_parent_id   = "Por parent id";
+$txt_create_cat     = "Criar Categoria";
+$txt_id             = "Id";
+$txt_name           = "Nome";
+$txt_plural_name    = "Nome no plural(opcional)";
+$txt_iconfont_tag   = "Icon font tag";
+$txt_parent_id      = "Parent Id";
+$txt_order          = "Ordenar";
+$txt_edit_cat       = "Editar categoria";
+$txt_remove_cat     = "Remover categoria";
+$txt_no_cats        = "Não há categorias definidas.";
+$txt_cat_name       = "Nome da Categoria";
+$txt_cat_order      = "Ordem da Categoria (número)(opcional)";
+$txt_parent_cat     = "Categoria Parent Id";
+$txt_no_parent      = "Nenhum";
+$txt_parent_explain = "Máximo 3 níveis.";

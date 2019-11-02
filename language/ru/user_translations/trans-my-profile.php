@@ -1,0 +1,19 @@
+<?php
+$txt_html_title          = "Мой профиль";
+$txt_main_title          = "Мой профиль";
+$txt_public_profile_link = "Публичный профиль";
+$txt_label_picture       = "Изображение";
+$txt_btn_change          = "Изменить";
+$txt_btn_delete          = "Удалить";
+$txt_label_fname         = "Имя";
+$txt_label_lname         = "Фамилия";
+$txt_label_gender        = "Пол";
+$txt_value_female        = "Женский";
+$txt_value_male          = "Мужской";
+$txt_value_other_gender  = "Другой";
+$txt_label_birthday      = "День рождения";
+$txt_label_email         = "Электронный адрес";
+$txt_label_city          = "Город";
+$txt_label_country       = "Страна";
+$txt_btn_submit          = "Сохранить изменения";
+$txt_value_day           = "День";

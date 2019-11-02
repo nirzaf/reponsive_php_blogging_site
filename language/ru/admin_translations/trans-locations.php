@@ -1,0 +1,24 @@
+<?php
+$txt_html_title      = "Управлять местами";
+$txt_main_title      = "Управлять местами";
+$txt_show            = "Показать";
+$txt_cities          = "Города";
+$txt_states          = "Штаты";
+$txt_countries       = "Страны";
+$txt_create_city     = "Создать город";
+$txt_create_state    = "Создать штат";
+$txt_create_country  = "Создать страну";
+$txt_city_id         = "Идентификатор города";
+$txt_city_name       = "Название города";
+$txt_state           = "Штат";
+$txt_remove_city     = "Удалить город";
+$txt_state_id        = "Идентификатор штата";
+$txt_state_name      = "Название штата";
+$txt_country         = "Страна";
+$txt_remove_state    = "Удалить штат";
+$txt_country_id      = "Идентификатор страны";
+$txt_country_name    = "Название страны";
+$txt_country_code    = "Код страны";
+$txt_remove_country  = "Удалить страну";
+$txt_toggle_featured = "Выводить на главной странице";
+$txt_quick_jump      = "Мгновенный доступ";

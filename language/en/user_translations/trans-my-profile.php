@@ -1,0 +1,19 @@
+<?php
+$txt_html_title          = "My Profile";
+$txt_main_title          = "My Profile";
+$txt_public_profile_link = "public profile";
+$txt_label_picture       = "Picture";
+$txt_btn_change          = "Change";
+$txt_btn_delete          = "Delete";
+$txt_label_fname         = "First Name";
+$txt_label_lname         = "Last Name";
+$txt_label_gender        = "Gender";
+$txt_value_female        = "Female";
+$txt_value_male          = "Male";
+$txt_value_other_gender  = "Other";
+$txt_label_birthday      = "Birthday";
+$txt_label_email         = "Email";
+$txt_label_city          = "City";
+$txt_label_country       = "Country";
+$txt_btn_submit          = "Save Changes";
+$txt_value_day           = "Day";

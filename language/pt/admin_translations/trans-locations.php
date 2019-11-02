@@ -1,0 +1,24 @@
+<?php
+$txt_html_title      = "Gerenciar Locais";
+$txt_main_title      = "Gerenciar Locais";
+$txt_show            = "Mostrar";
+$txt_cities          = "Cidades";
+$txt_states          = "Estados";
+$txt_countries       = "Países";
+$txt_create_city     = "Criar Cidade";
+$txt_create_state    = "Criar Estado";
+$txt_create_country  = "Criar País";
+$txt_city_id         = "ID da Cidade";
+$txt_city_name       = "Nome da Cidade";
+$txt_state           = "Estado";
+$txt_remove_city     = "Remover Cidade";
+$txt_state_id        = "ID do Estado";
+$txt_state_name      = "Nome do Estado";
+$txt_country         = "País";
+$txt_remove_state    = "Remover Estado";
+$txt_country_id      = "ID do País";
+$txt_country_name    = "Nome do País";
+$txt_country_code    = "Código do País";
+$txt_remove_country  = "Remover País";
+$txt_toggle_featured = "Ativar/Desativar Destaque Home";
+$txt_quick_jump      = "Navegação Rápida";

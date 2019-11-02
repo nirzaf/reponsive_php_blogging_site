@@ -1,0 +1,61 @@
+v.1.09
+
+[01] [fix] error on second search results page
+	=> templates/tpl_searchresults.php
+
+[02] [fix] if custom field is assigned to default category, it doesn't show until category is changed
+	=> templates/user_templates/tpl_add-place.php
+	=> templates/user_templates/tpl_edit-place.php
+
+[03] [improvement] ability to change listings' owner id
+	=> admin/admin-listings.php
+	=> created file: admin/admin-process-edit-owner.php
+
+[04] [fix] search results (related to [1]), syntax error if query string is not trimmed
+	=> /_searchresults.php
+
+[05] [fix] e() query string in the pagination widget
+	=> /_searchresults.php
+
+[06] [fix] homepage categories order
+	=> /index.php
+
+[07] [fix] claim listing, after login, redirects to "add place" instead of claim.
+	=> /user/login.php
+
+[08] [improvement] some servers display error $_SESSION['last_submitted_place_id'] index not set
+	=> /user/process-add-place.php
+
+[09] [fix] if plan period > 9999, place is not inserted because valid until will generate invalid date
+	=> /user/process-add-place.php
+
+[10] [fix] modification function get_children to pre-select category when on edit listing form
+	=> /inc/functions.php
+	=> /templates/user_templates/tpl_add-place.php
+
+[11] [improvement] improvement to htaccess files
+	=> .htaccess*
+
+[12] [improvement] create language folder and add drop down select in admin area
+	=> /language
+	=> /admin/admin-settings.php
+	=> /admin/admin-process-settings.php
+	=> admin translation file include line in several files
+
+[13] [feature] geolocation awareness
+	=> created file '/inc/nearest-location.php'
+	=> /templates/_html_head.php
+	=> /templates/_footer.php
+
+[14] [fix] thumbnails foreach loop is hard limited to 4 in some cases
+	=> /templates/tpl_place.php
+
+[15] [improvement] remove foursquare conditional
+	=> /process-review.php
+
+[16] [improvement] clean common.inc.php file
+	=> /inc/common.inc.php
+
+[17] [improvement] only one user instance in loggedin table
+	=> /inc/functions.php
+

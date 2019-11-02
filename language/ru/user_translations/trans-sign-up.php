@@ -1,0 +1,21 @@
+<?php
+$txt_html_title             = "Создать аккаунт";
+$txt_main_title             = "Зарегистрироваться";
+$txt_label_fname            = "Имя";
+$txt_label_lname            = "Фамилия";
+$txt_label_email            = "Электронный адрес";
+$txt_label_passw            = "Пароль";
+$txt_submit_btn             = "Зарегистрироваться";
+$txt_btn_facebook           = "Зарегистрироваться с Facebook";
+$txt_btn_twitter            = "Зарегистрироваться с Twitter";
+$txt_has_account            = "У вас уже есть аккаунт?";
+$txt_link_log_in            = "Войти";
+$txt_email_exists           = "Пользователь уже существует";
+$txt_email_exists_explain   = "Извините, этот электронный адрес уже зарегистрирован.";
+$txt_invalid_email          = "Недействительный адрес электронной почты";
+$txt_invalid_email_explain  = "Указанный почтовый ящик [] не соответствует RFC 2822";
+$txt_missing_fields         = "Недостающие поля";
+$txt_missing_fields_explain = "Вы оставили некоторые поля пустыми. Все поля обязательны для заполнения.";
+$txt_acct_created           = "Аккаунт создан!";
+$txt_acct_created_explain   = "Пожалуйста проверьте свой электронный адрес и перейдите по ссылке для подтверждения.";
+$txt_submit_again           = "Пожалуйста <a href='$baseurl/user/sign-up'>заполните форму</a> again.";
